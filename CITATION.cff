@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-message: "If you use this code source, please cite it as below."
-authors:
-- family-names: "WAHARTE"
-  given-names: "Mathieu"
-title: "Personal Site"
-version: 1.0.0
-date-released: 2022-11-17
-url: "https://github.com/Wubpooz/Personal_Site"
