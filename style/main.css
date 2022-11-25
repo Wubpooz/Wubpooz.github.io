@@ -200,8 +200,10 @@ a:active{
 .langchang{
   left : 0;
   right: 100vw;
-  overflow: hidden;
+  /*overflow: hidden;*/
   top : 0;
+  margin-bottom: 2.8em;
+  scroll-margin-top : clamp(2.7em,3.325em,4.575em);
 }
 
 .langbutton{
@@ -276,6 +278,31 @@ a:active{
 
 .txt_block{
   scroll-margin-top : clamp(2.7em,3.325em,4.575em); /* header height + 0.2em to breath */
+}
+
+/*--------------------------------------- Back to Top button ---------------------------------------*/
+
+.back_top{
+  display: flex;
+  justify-content: end;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.topbtn{
+  margin-right : 6px;
+}
+
+.top_img{
+  filter : invert(calc(var(--btn-invert) - .25));
+  transform: rotate(270deg);
+  width : 2em;
+  height : 2em;
+  padding: 0.08em;
+}
+
+.topbtn:hover .top_img{
+  filter : invert(calc(var(--btn-invert) - .08));
+  cursor: pointer;
 }
 
 /*--------------------------------------- Footer --------------------------------------- */
