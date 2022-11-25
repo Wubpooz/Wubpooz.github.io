@@ -1,0 +1,345 @@
+/*--------------------------------------- Global --------------------------------------- */
+
+*{
+    padding : 0;
+  }
+  
+  body{
+    background-color: var(--bg-color);
+    color: var(--base-text-color);
+    margin: 0;
+    height: 0;
+    -moz-user-select:-moz-none;
+       -webkit-user-select:none;
+       -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    overflow-wrap: break-word;  /*for very small display*/
+  }
+  
+  a{
+    padding : 0;
+    margin : 0;
+    text-decoration: none;
+    cursor: inherit;
+    color : inherit;
+    overflow-wrap: anywhere;
+  }
+  a:hover{
+    cursor: pointer;
+    color : var(--hover-text-color);
+  }
+  a:active{
+    color : var(--active-text-color);
+  }
+  
+  @font-face {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: larger;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lexenddeca/v17/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wqxnD.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @media  (prefers-color-scheme : light) {
+    :root {
+      --bg-color : white;
+      --base-text-color : black;
+      --btn-invert : 0;
+      --bar-bg-color: rgb(36, 36, 36);
+      --rest-text-color :rgba(255, 255, 255, 0.552);
+      --hover-text-color : rgba(255,255,255,0.8);
+      --active-text-color : rgba(255,255,255);
+    }
+  }
+  
+  @media  (prefers-color-scheme : dark) {
+    :root{
+    --bg-color : rgb(68, 68, 68);
+    --base-text-color : rgba(160,160,160);
+    --btn-invert : 1;
+    --bar-bg-color: rgb(36, 36, 36);
+    --rest-text-color :rgba(255, 255, 255, 0.552);
+    --hover-text-color : rgba(255,255,255,0.8);
+    --active-text-color : rgba(255,255,255);
+    }
+  }
+  
+  /*--------------------------------------- NavBar --------------------------------------- */
+  
+  
+  .placeholder{   /* to avoid jump when switching to position : fixed on the navbar ; clamp( x+2*10px of padding) */
+    height: clamp(2.5em,3.125em,4.375em);
+  }
+  
+  .navbar{
+    padding-inline : 0.6em;
+    padding-block: .7em;
+    color : var(--rest-text-color);
+    background: var(--bar-bg-color);
+    overflow: hidden;
+    box-sizing: inherit;
+    height: clamp(1.25em,1.875em,3.125em);
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: -moz-available;    /* for some reason width : 100% is too wide ? so yeah... */
+    width: -webkit-fill-available;
+    z-index: 10;
+  }
+  
+  
+  .base_navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    white-space:nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    align-items: flex-start;
+    top : 0;
+    margin : 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-top: 0.7em;
+  }
+  
+  .navbar_element{
+    width: fit-content;
+    text-align: center;
+    padding: .3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar_element:hover{
+    color : var(--hover-text-color);
+    cursor: pointer;
+  }
+  
+  .navbar_element:active{
+    color : var(--active-text-color);
+    transition: 0s;
+  }
+  
+  
+  
+  /*----- mobile dropdown -----*/
+  
+  .portable_navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+    width : 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+    transition: 0.5s;
+  }
+  
+  .menubtn {
+    width: fit-content;
+    text-align: center;
+    background-color: var(--bar-bg-color);
+    color: var(--rest-text-color);
+    font-size: 1.25em;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+  .menubtn:hover{cursor: pointer; color: var(--hover-text-color);}
+  
+  
+  .sidebar-content {
+    float: right;
+    width: 0;
+    height: 100vh;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: fixed;
+    visibility: hidden;
+    right: 0;
+    background-color: var(--bar-bg-color);
+    text-align: left;
+    overflow-x: hidden;
+    padding: 0.375em 0.375em;
+    transition: all .6s cubic-bezier(0.93, 0.68, 0.69, 0.06);
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+  }
+  /*.menubtn:hover ~ .sidebar-content {display: block;}*/
+  
+  .sidebar-content.sideshow{
+    width:  max(3.618em,63%);
+    visibility : visible;
+    transition: all .6s cubic-bezier(0.07, 0.32, 0.31, 1.06);
+  }
+  
+  .sidebar-content a {
+    color: var(--rest-text-color);
+    padding: 0.375em 0.375em;
+    text-decoration: none;
+    display: block;
+    /*border: 1px solid rgb(59, 59, 59);*/
+  }
+  .sidebar-content a:hover {color: var(--hover-text-color); cursor: pointer;}
+  
+  .sidebar-content:nth-child(1) a{  /* --------------------------------------------------------------------------------- /!\-----------------------*/
+    background-color: aliceblue;
+  }
+  
+  
+  /*--------------------------------------- Langue --------------------------------------- */
+  
+  
+  .langchang{
+    left : 0;
+    right: 100vw;
+    /*overflow: hidden;*/
+    top : 0;
+    margin-bottom: 2.8em;
+    scroll-margin-top : clamp(2.7em,3.325em,4.575em);
+  }
+  
+  .langbutton{
+    float : right;
+    background-color: var(--bg-color);
+    color: var(--rest-text-color);
+    transition: all 0.3s ease-in-out;
+    border: none;
+    font-weight: 500;
+    line-height: 1.25em;
+    list-style: none;
+    font-size: inherit;
+    padding: 0.375em 0.688em;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;    
+    padding-inline: 0.3em;
+    padding-bottom: 0;
+    padding-top: 0.1667em;
+    margin-top: 0.25em;
+    
+  
+    /* version with background matching the navbar (+ invert(1-x) for the svg)
+    background-color: var(--bar-bg-color);  
+    border-top: 1px solid black;
+    border-end-start-radius: 0.41667em;
+    border-start-end-radius: 0;
+    border-start-start-radius: 0.041667em;
+    border-end-end-radius: 0.125em;*/
+  
+  }
+  
+  .lang_img{
+    filter : invert(calc(var(--btn-invert) - .14));
+    width : 2.5em; 
+    height : 2em;
+  }
+  
+  .langbutton:hover .lang_img{
+    filter : invert(calc(var(--btn-invert) - .08));
+    cursor: pointer;
+  }
+  
+  .langbutton:active .lang_img {
+    filter : invert(var(--btn-invert));
+    transition: none 0s;
+  }
+  
+  .langbutton:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  
+  /*--------------------------------------- Textes --------------------------------------- */
+  
+  
+  .resume{
+    margin-top: 1%;
+    margin-inline : 1%;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select:-moz-all;
+    -ms-user-select : text;
+    -moz-user-select: text;
+  }
+  
+  .txt_block{
+    scroll-margin-top : clamp(2.7em,3.325em,4.575em); /* header height + 0.2em to breath */
+  }
+  
+  /*--------------------------------------- Back to Top button ---------------------------------------*/
+  
+  .back_top{
+    display: flex;
+    justify-content: end;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .topbtn{
+    margin-right : 6px;
+  }
+  
+  .top_img{
+    filter : invert(calc(var(--btn-invert) - .25));
+    transform: rotate(270deg);
+    width : 2em;
+    height : 2em;
+    padding: 0.08em;
+  }
+  
+  .topbtn:hover .top_img{
+    filter : invert(calc(var(--btn-invert) - .08));
+    cursor: pointer;
+  }
+  
+  /*--------------------------------------- Footer --------------------------------------- */
+  
+  .footer{
+    background-color: var(--bar-bg-color);
+    color: var(--rest-text-color);
+    text-align: center;
+    padding-top: 0.288em;
+    padding-bottom: 0.488em;
+    margin-bottom: -0.938em;
+  }
+  
+  .content{min-height: calc(100vh - 66px);}
+  
+  /*--------------------------------------- Mobile friendliness --------------------------------------- */
+  
+  
+  @media only screen and (max-width : 900px)  {
+    body{
+      font-size: x-large;
+    }
+    
+    .portable_navbar{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      white-space:nowrap;
+      align-content: space-between;
+      justify-content: space-between;
+      text-align: right;
+    }
+    .base_navbar{
+      display: none;
+    }
+    .langbutton{
+      font-size: x-large;
+    }
+  }
+  
