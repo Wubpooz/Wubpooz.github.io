@@ -80,6 +80,14 @@ current_lang = langs[current_lang_index];
 translate();
 }
 
+/** JSDOC EXAMPLE
+ * @method
+ * @description changes the text from the fr dictionnary
+ *  to the en one and vice versa
+ * @param {void} nothing
+ * @return {void} nothing
+ */
+
 function translate() {
 $("[data-translate]").each(function(){
     var key = $(this).data('translate');
