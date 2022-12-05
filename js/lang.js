@@ -4,6 +4,10 @@ var dictionary = {
       'fr' : 'Changer la Langue',
       'en' : 'Change Language',
     },
+    'nice_header' :{
+      'fr' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',
+      'en' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',
+  },
     'intro_title' :{
       'fr' : '<h1>Introduction</h1>',
       'en' : '<h1>Introduction</h1>',
