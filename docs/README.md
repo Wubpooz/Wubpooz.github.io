@@ -13,7 +13,6 @@ output:
     math: katex
 ---
 -->
-
 ## Sources
 ***
 
