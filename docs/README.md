@@ -45,7 +45,7 @@ https://youtu.be/Xc6G3oV24yE
 https://youtu.be/CXa9IBYUyQk
 https://youtu.be/nG2IyH43xMU
 
-&nbps;
+&nbsp;
 ## Glowing effect references
 
 https://css-tricks.com/how-to-create-neon-text-with-css/
@@ -55,7 +55,7 @@ https://codepen.io/Wking/pen/BdmpVx
 https://codepen.io/ShayStibelman/pen/AmPOqb
 https://codepen.io/aaroniker/pen/XWYpyNM
 
-&nbps;
+&nbsp;
 ## 3D effects references
 
 https://codepen.io/sungaila/pen/LzMgjE
