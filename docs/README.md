@@ -16,7 +16,7 @@ output:
 ## Sources
 ***
 
-#### Doc :
+### Doc :
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files
 https://caniuse.com/?search=fill-available
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
@@ -32,7 +32,7 @@ https://web.dev/stick-to-compositor-only-properties-and-manage-layer-count/
 
 
 &nbsp;
-#### Sites ex :
+### Sites ex :
 https://junior-pps.fr/
 https://www.lri.fr/~falcou/
 https://www.lri.fr/~cartier/
@@ -45,41 +45,16 @@ https://youtu.be/Xc6G3oV24yE
 https://youtu.be/CXa9IBYUyQk
 https://youtu.be/nG2IyH43xMU
 
-&nbsp;
-## Glowing effect references
-
-https://css-tricks.com/how-to-create-neon-text-with-css/  
-https://codepen.io/rm/pen/AXpmja  
-https://codepen.io/NickNoordijk/pen/QbEZQG  
-https://codepen.io/Wking/pen/BdmpVx  
-https://codepen.io/ShayStibelman/pen/AmPOqb  
-https://codepen.io/aaroniker/pen/XWYpyNM  
+https://codepen.io/TurkAysenur/pen/gORaboY  (product showcase example)  
+https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)  
 
 &nbsp;
-## 3D effects references
-
-https://codepen.io/sungaila/pen/LzMgjE  
-https://codepen.io/danielolan/pen/OgdYKB  
-https://codepen.io/dadzjon/pen/rNxXXo  
-https://codepen.io/r_e_d_ant/pen/oNWZgpy  
-https://codepen.io/georgedoescode/pen/XWNmvro  
-https://codepen.io/TurkAysenur/pen/gORaboY  
-https://codepen.io/ykadosh/pen/bGKgxbe  
-https://codepen.io/dev_loop/pen/MWKbJmO  
-https://codepen.io/TurkAysenur/pen/ZEpxeYm  
-https://codepen.io/z-/pen/OBPJKK  
-https://codepen.io/gayane-gasparyan/pen/jOmaBQK  
-https://codepen.io/isladjan/pen/abdyPBw  
-https://codepen.io/MrAndrewMcG/pen/dzmyeb  
-https://codepen.io/Stockin/pen/mzydLz  
-https://codepen.io/dazulu/pen/VVZrQv  
-https://codepen.io/juliangarnier/pen/krNqZO  
-https://codepen.io/creativeocean/pen/qBbBLyB  
-https://codepen.io/aaroniker/pen/XWYpyNM  
+### Références :
 
 
 &nbsp;
-#### Références :
+#### Générales : 
+
 https://stackoverflow.com/questions/32008125/using-javascript-to-change-website-language => https://jsfiddle.net/x93oLad8/4/   &  https://codepen.io/codepajamas/pen/NjGOMV
 https://www.geeksforgeeks.org/how-to-switch-the-language-of-the-page-using-javascript/
 https://codepen.io/Hyperplexed/full/BaxBZjV (RottenTomatoes redesign)
@@ -92,8 +67,52 @@ https://nekocalc.com/px-to-rem-converter
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav (side menu)
 http://jsfiddle.net/Te9T5/ && https://stackoverflow.com/questions/20062327/css3-transition-effect-with-onclick  (toggleClass)
 
+
 &nbsp;
-#### A faire :
+#### Underline references
+
+https://codepen.io/rm/pen/AXpmja  (sliding underline)  
+https://codepen.io/NickNoordijk/pen/QbEZQG  (underline gradient)  
+https://codepen.io/Wking/pen/BdmpVx   (awesome expanding underline)  
+https://codepen.io/ShayStibelman/pen/AmPOqb  (scrolling underline)  
+
+
+&nbsp;
+#### 3D effects references
+
+https://codepen.io/sungaila/pen/LzMgjE  (simple 3D rotation)  
+https://codepen.io/danielolan/pen/OgdYKB  (3D box rotation)  
+https://codepen.io/ykadosh/pen/bGKgxbe  (3D keyboard example)  
+https://codepen.io/MrAndrewMcG/pen/dzmyeb  (card 3D rotation)  
+https://codepen.io/Stockin/pen/mzydLz   (3D social rectangle)  
+https://codepen.io/dazulu/pen/VVZrQv  (parallax effect)  
+https://codepen.io/dev_loop/pen/MWKbJmO  (card navigation)  
+
+
+&nbsp;
+#### Glow references
+
+https://css-tricks.com/how-to-create-neon-text-with-css/  
+https://codepen.io/aaroniker/pen/XWYpyNM  (glow button)  
+
+
+&nbsp;
+#### Glassmorphism references
+
+https://codepen.io/TurkAysenur/pen/ZEpxeYm  (glassmorphism ui)  
+https://codepen.io/georgedoescode/pen/XWNmvro  (glassmorphism block + gradient)  
+
+
+&nbsp;
+#### Scroll references
+
+https://codepen.io/isladjan/pen/abdyPBw  (scroll fucking animations)  
+https://codepen.io/creativeocean/pen/qBbBLyB  (scroll effect)  
+
+&nbsp;
+## A faire :
+***  
+&nbsp;
 - darkmode ✅
 - liens
 - hover ✅
