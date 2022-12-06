@@ -74,6 +74,8 @@ https://codepen.io/MrAndrewMcG/pen/dzmyeb
 https://codepen.io/Stockin/pen/mzydLz  
 https://codepen.io/dazulu/pen/VVZrQv  
 https://codepen.io/juliangarnier/pen/krNqZO  
+https://codepen.io/creativeocean/pen/qBbBLyB  
+https://codepen.io/aaroniker/pen/XWYpyNM  
 
 
 &nbsp;
