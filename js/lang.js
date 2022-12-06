@@ -5,9 +5,9 @@ var dictionary = {
       'en' : 'Change Language',
     },
     'nice_header' :{
-      'fr' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1> <img class="title_img" src="./pic/Intro_Poly.png" alt="title_img">',
+      'fr' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',
       'en' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',
-  },
+    },
     'intro_title' :{
       'fr' : '<h1>Introduction</h1>',
       'en' : '<h1>Introduction</h1>',
