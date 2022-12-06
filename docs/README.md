@@ -48,32 +48,32 @@ https://youtu.be/nG2IyH43xMU
 &nbsp;
 ## Glowing effect references
 
-https://css-tricks.com/how-to-create-neon-text-with-css/
-https://codepen.io/rm/pen/AXpmja
-https://codepen.io/NickNoordijk/pen/QbEZQG
-https://codepen.io/Wking/pen/BdmpVx
-https://codepen.io/ShayStibelman/pen/AmPOqb
-https://codepen.io/aaroniker/pen/XWYpyNM
+https://css-tricks.com/how-to-create-neon-text-with-css/  
+https://codepen.io/rm/pen/AXpmja  
+https://codepen.io/NickNoordijk/pen/QbEZQG  
+https://codepen.io/Wking/pen/BdmpVx  
+https://codepen.io/ShayStibelman/pen/AmPOqb  
+https://codepen.io/aaroniker/pen/XWYpyNM  
 
 &nbsp;
 ## 3D effects references
 
-https://codepen.io/sungaila/pen/LzMgjE
-https://codepen.io/danielolan/pen/OgdYKB
-https://codepen.io/dadzjon/pen/rNxXXo
-https://codepen.io/r_e_d_ant/pen/oNWZgpy
-https://codepen.io/georgedoescode/pen/XWNmvro
-https://codepen.io/TurkAysenur/pen/gORaboY
-https://codepen.io/ykadosh/pen/bGKgxbe
-https://codepen.io/dev_loop/pen/MWKbJmO
-https://codepen.io/TurkAysenur/pen/ZEpxeYm
-https://codepen.io/z-/pen/OBPJKK
-https://codepen.io/gayane-gasparyan/pen/jOmaBQK
-https://codepen.io/isladjan/pen/abdyPBw
-https://codepen.io/MrAndrewMcG/pen/dzmyeb
-https://codepen.io/Stockin/pen/mzydLz
-https://codepen.io/dazulu/pen/VVZrQv
-https://codepen.io/juliangarnier/pen/krNqZO
+https://codepen.io/sungaila/pen/LzMgjE  
+https://codepen.io/danielolan/pen/OgdYKB 
+https://codepen.io/dadzjon/pen/rNxXXo  
+https://codepen.io/r_e_d_ant/pen/oNWZgpy  
+https://codepen.io/georgedoescode/pen/XWNmvro  
+https://codepen.io/TurkAysenur/pen/gORaboY  
+https://codepen.io/ykadosh/pen/bGKgxbe  
+https://codepen.io/dev_loop/pen/MWKbJmO  
+https://codepen.io/TurkAysenur/pen/ZEpxeYm  
+https://codepen.io/z-/pen/OBPJKK  
+https://codepen.io/gayane-gasparyan/pen/jOmaBQK  
+https://codepen.io/isladjan/pen/abdyPBw  
+https://codepen.io/MrAndrewMcG/pen/dzmyeb  
+https://codepen.io/Stockin/pen/mzydLz  
+https://codepen.io/dazulu/pen/VVZrQv  
+https://codepen.io/juliangarnier/pen/krNqZO  
 
 
 &nbsp;
