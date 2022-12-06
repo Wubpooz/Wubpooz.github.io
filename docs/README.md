@@ -59,7 +59,7 @@ https://codepen.io/aaroniker/pen/XWYpyNM
 ## 3D effects references
 
 https://codepen.io/sungaila/pen/LzMgjE  
-https://codepen.io/danielolan/pen/OgdYKB 
+https://codepen.io/danielolan/pen/OgdYKB  
 https://codepen.io/dadzjon/pen/rNxXXo  
 https://codepen.io/r_e_d_ant/pen/oNWZgpy  
 https://codepen.io/georgedoescode/pen/XWNmvro  
