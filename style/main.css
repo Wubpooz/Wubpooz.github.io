@@ -274,11 +274,18 @@
   
   /*--------------------------------------- Textes --------------------------------------- */
   
+  .title_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
   .title_with_img{
     box-shadow: 0 0 10px 5px gray;
     margin-bottom: 1em;
-    padding-bottom: 16rem;
-    padding-top: 16rem;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
     display: flex;
     left: 0;
     right: 0;
@@ -288,15 +295,13 @@
     background-color: #8d8888;
   }
 
-  .title_img{
-      width: 100%;
-      z-index: 0;
-  }
-
   .intro_title{
     z-index: 2;
     position: relative;
     backdrop-filter: blur(20px);
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
   }
   #base_head{
     background-color: rgb(28, 25, 56);
@@ -307,10 +312,12 @@
     color: var(--rest-text-color);
     z-index: 2;
   }
-
-
   #wording{
     color: hsl(277, 64%, 61%);
+  }
+
+  .bck_img{
+    filter : opacity(.7);
   }
   
 
@@ -336,7 +343,7 @@
   
   .back_top{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     -webkit-tap-highlight-color: transparent;
   }
   
