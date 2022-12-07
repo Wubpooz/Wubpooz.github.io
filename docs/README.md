@@ -28,7 +28,7 @@ https://web.dev/optimize-cls/
 https://webperformance.recipes/resources/measure-optimize-cls/
 https://web.dev/animations-guide/
 https://web.dev/stick-to-compositor-only-properties-and-manage-layer-count/
-
+https://www.figma.com
 
 
 &nbsp;
@@ -47,6 +47,7 @@ https://youtu.be/nG2IyH43xMU
 
 https://codepen.io/TurkAysenur/pen/gORaboY  (product showcase example)  
 https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)  
+
 
 &nbsp;
 ### Références :
@@ -68,6 +69,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav (side menu)
 http://jsfiddle.net/Te9T5/ && https://stackoverflow.com/questions/20062327/css3-transition-effect-with-onclick  (toggleClass)
 
 
+
 &nbsp;
 #### Underline references
 
@@ -87,6 +89,7 @@ https://codepen.io/MrAndrewMcG/pen/dzmyeb  (card 3D rotation)
 https://codepen.io/Stockin/pen/mzydLz   (3D social rectangle)  
 https://codepen.io/dazulu/pen/VVZrQv  (parallax effect)  
 https://codepen.io/dev_loop/pen/MWKbJmO  (card navigation)  
+https://www.niarratravel.com/ (parallax)
 
 
 &nbsp;
@@ -101,6 +104,7 @@ https://codepen.io/aaroniker/pen/XWYpyNM  (glow button)
 
 https://codepen.io/TurkAysenur/pen/ZEpxeYm  (glassmorphism ui)  
 https://codepen.io/georgedoescode/pen/XWNmvro  (glassmorphism block + gradient)  
+https://www.apple.com/macbook-pro-13/
 
 
 &nbsp;
@@ -108,6 +112,13 @@ https://codepen.io/georgedoescode/pen/XWNmvro  (glassmorphism block + gradient)
 
 https://codepen.io/isladjan/pen/abdyPBw  (scroll fucking animations)  
 https://codepen.io/creativeocean/pen/qBbBLyB  (scroll effect)  
+https://www.apple.com/ipad-air/
+https://www.apple.com/ipad-pro/
+https://www.apple.com/macbook-pro-13/
+https://www.apple.com/iphone-14-pro/  
+https://www.apple.com/airpods-pro/ 
+https://crustac.fr/en/home/ (scroll-line)
+https://www.niarratravel.com/
 
 &nbsp;
 ## A faire :
