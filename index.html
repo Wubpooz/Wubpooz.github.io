@@ -10,16 +10,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Avoid caching CSS in order to refres hthe page every time the CSS changes in Github -->
+
         <meta http-equiv='cache-control' content='no-cache'> 
         <meta http-equiv='expires' content='0'> 
         <meta http-equiv='pragma' content='no-cache'>
 
+        <!-- Tags -->
+
         <title>Mathieu Waharte</title>
         <meta name="description" content="Descriptif des activités d'étude et recherche de M. Mathieu Waharte.">
+        <link rel="icon" type="image/x-icon" href="./pic/logo.png">
+
+
+        <!-- OG tags -->
+
+        <meta property="og:title" content="Mathieu Waharte" />
+        <meta property="og:type" content="personnal.site" />
+        <meta property="og:url" content="https://wubpooz.github.io/" />
+        <meta property="og:image" content="https://wubpooz.github.io/pic/preview_img.png" />
+        <meta property="og:description" content="Descriptif des activités d'étude et recherche de M. Mathieu Waharte.">
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:locale:alternate" content="en_US" />
+
+        <!-- Stylesheets -->
 
         <link rel="stylesheet" href="./style/main.css" type="text/css">
         <!--<link rel="stylesheet" href="./style/vendor.css" type="text/css">-->
-        <!--<link href='https://fonts.googleapis.com/css?family=Lexend%20Deca' rel='stylesheet'>-->
         
     </head>
 
@@ -40,9 +57,9 @@
                     <div class="navbar_element" id="sidebar" style="padding-top:0;">
                         <button class="menubtn">☰</button>
                         <div class="sidebar-content">
-                            <a href="#intro">Intro</a>
-                            <a href="#research"> Recherche</a>
-                            <a href="#teaching">Teaching</a>
+                            <a href="#intro" data-translate="side_intro"></a>
+                            <a href="#research" data-translate="side_research"></a>
+                            <a href="#teaching" data-translate="side_teaching"></a>
                         </div>
                     </div>
               </div>
@@ -51,7 +68,7 @@
         
         
         <div id="langchang" class="langchang">
-            <button onclick="change_lang()"  class="langbutton"><img src="./pic/language-solid.svg" width="60" height="48" class="lang_img" alt="change_lang"></button>          
+            <button onclick="change_lang()"  class="langbutton"><img src="./pic/language-solid.svg" width="60" height="48" class="lang_img" alt="change_lang" title=(data-translate="button")></button>          
         </div>
 
 

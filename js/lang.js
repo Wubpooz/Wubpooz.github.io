@@ -1,5 +1,17 @@
 
 var dictionary = {
+    'side_intro':{
+      'fr' : 'Introduction',
+      'en' : 'Introduction',
+    },
+    'side_research':{
+      'fr' : 'Recherche',
+      'en' : 'Research',
+    },
+    'side_teaching':{
+      'fr' : 'Enseignement',
+      'en' : 'Teaching',
+    },
     'button' :{
       'fr' : 'Changer la Langue',
       'en' : 'Change Language',

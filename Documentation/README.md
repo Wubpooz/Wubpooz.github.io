@@ -51,12 +51,17 @@ https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)
 ![design example](/Documentation/design-1.jpg "Design Example")
 
 
+https://www.goodmeat.co/
+https://camillemormal.com/about
+https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
+
+
 &nbsp;
 ### Design
 https://www.figma.com (general UI/UX)
 https://www.shapedivider.app/ (create wavy svg)
 https://app.haikei.app/ (generate background svgs)
-
+https://pixelied.com (create icons)
 
 
 &nbsp;
@@ -77,7 +82,7 @@ https://codepen.io/alvarotrigo/pen/XWejzjR  (dropdown side menu)
 https://nekocalc.com/px-to-rem-converter
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav (side menu)
 http://jsfiddle.net/Te9T5/ && https://stackoverflow.com/questions/20062327/css3-transition-effect-with-onclick  (toggleClass)
-https://www.goodmeat.co/
+
 
 
 &nbsp;
