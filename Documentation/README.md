@@ -103,10 +103,16 @@ https://codepen.io/ykadosh/pen/bGKgxbe  (3D keyboard example)
 https://codepen.io/MrAndrewMcG/pen/dzmyeb  (card 3D rotation)  
 https://codepen.io/Stockin/pen/mzydLz   (3D social rectangle)  
 https://codepen.io/dazulu/pen/VVZrQv  (parallax effect)  
-https://codepen.io/dev_loop/pen/MWKbJmO  (card navigation)  
 https://www.niarratravel.com/ (parallax)
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax_device (parralax scroll)
 
+
+#### Card slider
+https://codepen.io/dev_loop/pen/MWKbJmO  (cards navigation)  
+https://codepen.io/jebbles/pen/MKoYya (single card)
+https://codepen.io/nathantaylor/pen/JEXgpj/ (fullscreen)
+https://codepen.io/alexnoz/pen/brazWd (higly parralaxed navigation)
+https://www.codinglabweb.com/2022/05/responsive-card-slider-javascript.html
 
 &nbsp;
 #### Glow references
