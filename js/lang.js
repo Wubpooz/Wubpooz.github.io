@@ -16,6 +16,10 @@ var dictionary = {
       'fr' : 'Changer la Langue',
       'en' : 'Change Language',
     },
+    'about' :{
+      'fr' : 'À propos',
+      'en' : 'About',
+    },
     'nice_header' :{
       'fr' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',
       'en' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',

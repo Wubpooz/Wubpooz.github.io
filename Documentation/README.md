@@ -105,6 +105,7 @@ https://codepen.io/Stockin/pen/mzydLz   (3D social rectangle)
 https://codepen.io/dazulu/pen/VVZrQv  (parallax effect)  
 https://codepen.io/dev_loop/pen/MWKbJmO  (card navigation)  
 https://www.niarratravel.com/ (parallax)
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax_device (parralax scroll)
 
 
 &nbsp;
