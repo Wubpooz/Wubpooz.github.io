@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M22.5 41.9V17.7l-5.9 5.9-2.1-2.1L24 12l9.5 9.5-2.1 2.1-5.9-5.9v24.2ZM8 9V6h32v3Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+    <!--<defs>
+        <style>
+            .cls-1{
+                fill:none;
+                stroke : aliceblue;
+                stroke-miterlimit: 10;
+            }
+        </style>
+    </defs>-->
+
+    <path class="cls-1" d="M22.5 41.9V17.7l-5.9 5.9-2.1-2.1L24 12l9.5 9.5-2.1 2.1-5.9-5.9v24.2ZM8 9V6h32v3Z" />
+</svg>

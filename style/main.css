@@ -53,7 +53,7 @@
   
   @media  (prefers-color-scheme : light) {
     :root {
-      --bg-color : rgb(225,225,225);
+      --bg-color : white;
       --base-text-color : black;
       --btn-invert : 0;
       --bar-bg-color: rgb(36, 36, 36);
@@ -165,6 +165,7 @@
   
   
   .sidebar-content {
+    z-index: 7;
     float: right;
     width: 0;
     height: 100vh;
@@ -179,7 +180,6 @@
     padding: 0.375em 0.375em;
     transition: all .6s cubic-bezier(0.93, 0.68, 0.69, 0.06);
     /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-    z-index: 1;
   }
   /*.menubtn:hover ~ .sidebar-content {display: block;}*/
   
@@ -195,13 +195,24 @@
     text-decoration: none;
     display: block;
     /*border: 1px solid rgb(59, 59, 59);*/
+    transform: translate(100px);
+    transition: all .6s cubic-bezier(0.93, 0.68, 0.69, 0.06);
   }
   .sidebar-content a:hover {color: var(--hover-text-color); cursor: pointer;}
   
-  .sidebar-content:nth-child(1) a{  /* --------------------------------------------------------------------------------- /!\ -----------------------*/
-    background-color: aliceblue;
+  .sidebar-content.sideshow a{
+    transition: all .6s cubic-bezier(0.07, 0.32, 0.31, 1.06);
+    transform: translate(0);
   }
-  
+
+  .sidebar-content a:nth-child(1){      /*-------------------- need some more work -------------------- */
+    transition-delay: 0ms;
+  }
+  .sidebar-content a:nth-child(2){
+    transition-delay: 200ms;
+  }.sidebar-content a:nth-child(3){
+    transition-delay: 400ms;
+  }
   
   /*--------------------------------------- Langue --------------------------------------- */
   
@@ -279,29 +290,38 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-bottom: 1em;
   }
 
   .title_with_img{
-    box-shadow: 0 0 10px 5px gray;
-    margin-bottom: 1em;
-    padding-bottom: 8rem;
-    padding-top: 8rem;
     display: flex;
     left: 0;
     right: 0;
     justify-content:space-around;
-    align-content: center;
-    width: 97%;
-    background-color: #8d8888;
+    align-items: center;
+    aspect-ratio: 675/900;
+    width: 20em;
+    box-shadow: 0 0 10px 5px gray;
+
+    overflow: auto;
+    position: relative;
+  }
+  .title_with_img:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    display: block;
+    background-image: url(../pic/blurry-gradient.svg);
+    background-size : cover;
+    filter: brightness(.8);
+    aspect-ratio: 675/900;
+    width: 20em;
   }
 
   .intro_title{
-    z-index: 2;
-    position: relative;
-    backdrop-filter: blur(20px);
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
+    z-index: 1;
+    height: min-content;
+    width: fit-content;
   }
   #base_head{
     background-color: rgb(28, 25, 56);

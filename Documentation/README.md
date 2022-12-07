@@ -28,7 +28,7 @@ https://web.dev/optimize-cls/
 https://webperformance.recipes/resources/measure-optimize-cls/
 https://web.dev/animations-guide/
 https://web.dev/stick-to-compositor-only-properties-and-manage-layer-count/
-https://www.figma.com
+
 
 
 &nbsp;
@@ -47,6 +47,16 @@ https://youtu.be/nG2IyH43xMU
 
 https://codepen.io/TurkAysenur/pen/gORaboY  (product showcase example)  
 https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)  
+
+![design example](/Documentation/design-1.jpg "Design Example")
+
+
+&nbsp;
+### Design
+https://www.figma.com (general UI/UX)
+https://www.shapedivider.app/ (create wavy svg)
+https://app.haikei.app/ (generate background svgs)
+
 
 
 &nbsp;
@@ -67,7 +77,7 @@ https://codepen.io/alvarotrigo/pen/XWejzjR  (dropdown side menu)
 https://nekocalc.com/px-to-rem-converter
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav (side menu)
 http://jsfiddle.net/Te9T5/ && https://stackoverflow.com/questions/20062327/css3-transition-effect-with-onclick  (toggleClass)
-
+https://www.goodmeat.co/
 
 
 &nbsp;
@@ -119,6 +129,7 @@ https://www.apple.com/iphone-14-pro/
 https://www.apple.com/airpods-pro/ 
 https://crustac.fr/en/home/ (scroll-line)
 https://www.niarratravel.com/
+https://www.goodmeat.co/
 
 &nbsp;
 ## A faire :
