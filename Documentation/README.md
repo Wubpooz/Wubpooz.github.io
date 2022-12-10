@@ -186,6 +186,7 @@ https://www.rose-island.co/
 - transition when resizing window ? (working) ❌
 - sort CSS porperties by alphabetical order
 - style side menu (opacity etc)
+- screen reader !!!!!
 - coherent naming scheme ✅
 - prefered language cookie handling
 
