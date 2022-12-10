@@ -22,7 +22,9 @@ function myFunction() {
   }
 }
 
-  
+// Change menu icon
+
+
 
 // Toggle sidebar
 $('.menubtn').on('click', function() {

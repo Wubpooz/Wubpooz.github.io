@@ -40,20 +40,37 @@ https://www.lri.fr/~kn/
 https://web.archive.org/web/20220120101200/https://avecle6.fr/
 https://stackoverflow.com/questions/69268167/this-is-the-css-i-have-written-trying-to-center-the-content-as-shown-in-the-pho
 
+![design example](/Documentation/design-1.jpg "Design Example")
+![design example](/Documentation/playfull.jpeg "Design Example")
+![design example](/Documentation/blurred_gradient.jpeg "Design Example")
+![design example](/Documentation/classy.jpeg "Design Example")
+![design example](/Documentation/simple_dark.jpeg "Design Example")
+
+
+&nbsp;
+#### Inspirations
+
+https://codepen.io/TurkAysenur/pen/gORaboY  (product showcase example)  
+https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)  
+https://kirifuda.co.jp/   (pardoon ?! 🤯)
+https://www.goodmeat.co/  (nice 👌)
+https://camillemormal.com/about   (waaaaa ✨)
+https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
+https://rougeonblue.ca/   (simple mais classe)
+
+
+
 https://youtu.be/RdcuOF4GSXk
 https://youtu.be/Xc6G3oV24yE
 https://youtu.be/CXa9IBYUyQk
 https://youtu.be/nG2IyH43xMU
 
-https://codepen.io/TurkAysenur/pen/gORaboY  (product showcase example)  
-https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)  
+https://webflow.com/blog/personal-website-examples
+https://www.behance.net/
+https://www.siteinspire.com/
+https://sitesee.co/
 
-![design example](/Documentation/design-1.jpg "Design Example")
 
-
-https://www.goodmeat.co/
-https://camillemormal.com/about
-https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
 
 
 &nbsp;
@@ -62,6 +79,7 @@ https://www.figma.com (general UI/UX)
 https://www.shapedivider.app/ (create wavy svg)
 https://app.haikei.app/ (generate background svgs)
 https://pixelied.com (create icons)
+https://neumorphism.io/
 
 
 &nbsp;
@@ -113,6 +131,7 @@ https://codepen.io/jebbles/pen/MKoYya (single card)
 https://codepen.io/nathantaylor/pen/JEXgpj/ (fullscreen)
 https://codepen.io/alexnoz/pen/brazWd (higly parralaxed navigation)
 https://www.codinglabweb.com/2022/05/responsive-card-slider-javascript.html
+https://codepen.io/Hyperplexed/pen/MWXBRBp
 
 &nbsp;
 #### Glow references
@@ -142,6 +161,10 @@ https://www.apple.com/airpods-pro/
 https://crustac.fr/en/home/ (scroll-line)
 https://www.niarratravel.com/
 https://www.goodmeat.co/
+
+#### Three.JS
+https://www.rose-island.co/
+
 
 &nbsp;
 ## A faire :

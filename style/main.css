@@ -65,8 +65,8 @@
   
   @media  (prefers-color-scheme : dark) {
     :root{
-      --bg-color : rgb(68, 68, 68);
-      --base-text-color : rgba(160,160,160);
+      --bg-color : black;
+      --base-text-color : rgba(240,240,240);
       --btn-invert : 1;
       --bar-bg-color: rgb(36, 36, 36);
       --rest-text-color :rgba(255, 255, 255, 0.7);
@@ -83,13 +83,12 @@
   }
   
   .navbar{
-    padding-inline : 0.6em;
-    padding-block: .7em;
+    height: fit-content;
     color : var(--rest-text-color);
     background: var(--bar-bg-color);
     overflow: hidden;
     box-sizing: inherit;
-    height: clamp(1.25em,1.875em,3.125em);
+    /*height: clamp(1.25em,1.875em,3.125em);*/
   }
   
   .sticky {
@@ -120,11 +119,13 @@
   
   .navbar_element{
     width: fit-content;
+    margin-top: 0.5em;
     text-align: center;
-    padding: .3em;
+    padding-inline: 0.5em;
     transition: all 0.3s ease-in-out;
     font-weight: 600;
     font-size: larger;
+    height: clamp(1.5em,2.125em,4.375em);
   }
   
   .navbar_element:hover{
@@ -153,16 +154,30 @@
   }
   
   .menubtn {
-    width: fit-content;
+
+    width: 1.4em;
     text-align: center;
     background-color: var(--bar-bg-color);
     color: var(--rest-text-color);
-    font-size: 1.25em;
+    font-size: 1.1em;
     border: none;
     transition: all 0.2s ease-in-out;
   }
-  .menubtn:hover{cursor: pointer; color: var(--hover-text-color);}
+  .menu_img{
+    width: 1.4em;
+    filter: invert(.8);
+  }
+  .menubtn:hover>.menu_img{cursor: pointer;filter: invert(.9);}
   
+  .close_img{
+    filter: invert(.8);
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+    transform: translate(-2em);
+  }
+
+
+
   
   .sidebar-content {
     z-index: 7;
@@ -284,7 +299,44 @@
   
   
   /*--------------------------------------- Textes --------------------------------------- */
+
+  #base_head{
+    background-color: rgb(28, 25, 56);
+    border-radius: 30px;
+    padding: 0.5em;
+    width: fit-content;
+    text-align: center;
+    color: var(--rest-text-color);
+    z-index: 2;
+  }
+  #wording{
+    color: hsl(277, 64%, 61%);
+  }
   
+
+  
+  .resume{
+    margin-top: 1%;
+    margin-inline : 1%;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select:-moz-all;
+    -ms-user-select : text;
+    -moz-user-select: text;
+  }
+  
+  .txt_block{
+    margin-left: 2px;
+    scroll-margin-top : clamp(2.7em,3.325em,4.575em); /* header height + 0.2em to breath */
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
+  
+
+
+  /*--------------------------------------- Cards ---------------------------------------*/
+  
+
   .reveal{
     position: relative;
     opacity: 0;
@@ -352,43 +404,13 @@
     width: fit-content;
   }
 
-  #base_head{
-    background-color: rgb(28, 25, 56);
-    border-radius: 30px;
-    padding: 0.5em;
-    width: fit-content;
-    text-align: center;
-    color: var(--rest-text-color);
-    z-index: 2;
-  }
-  #wording{
-    color: hsl(277, 64%, 61%);
-  }
-  
 
-  
-  .resume{
-    margin-top: 1%;
-    margin-inline : 1%;
-    user-select: text;
-    -webkit-user-select: text;
-    -moz-user-select:-moz-all;
-    -ms-user-select : text;
-    -moz-user-select: text;
-  }
-  
-  .txt_block{
-    margin-left: 2px;
-    scroll-margin-top : clamp(2.7em,3.325em,4.575em); /* header height + 0.2em to breath */
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 400;
-  }
-  
   /*--------------------------------------- Back to Top button ---------------------------------------*/
   
   .back_top{
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     -webkit-tap-highlight-color: transparent;
   }
   
@@ -398,7 +420,6 @@
   
   .top_img{
     filter : invert(calc(var(--btn-invert) - .25));
-    transform: rotate(270deg);
     width : 2em;
     height : 2em;
     padding: 0.08em;
@@ -408,19 +429,6 @@
     filter : invert(calc(var(--btn-invert) - .08));
     cursor: pointer;
   }
-  
-  /*--------------------------------------- Footer --------------------------------------- */
-  
-  .footer{
-    background-color: var(--bar-bg-color);
-    color: var(--rest-text-color);
-    text-align: center;
-    padding-top: 0.288em;
-    padding-bottom: 0.488em;
-    margin-bottom: -0.938em;
-  }
-  
-  .content{min-height: calc(100vh - 66px);}
   
   /*--------------------------------------- Mobile friendliness --------------------------------------- */
   
