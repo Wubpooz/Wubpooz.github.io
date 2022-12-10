@@ -80,6 +80,7 @@ https://www.shapedivider.app/ (create wavy svg)
 https://app.haikei.app/ (generate background svgs)
 https://pixelied.com (create icons)
 https://neumorphism.io/
+https://app.spline.design/files   (3D iframes, [reference](https://github.com/Wubpooz/Test_3D_css))
 
 
 &nbsp;
