@@ -28,6 +28,8 @@ https://web.dev/optimize-cls/
 https://webperformance.recipes/resources/measure-optimize-cls/
 https://web.dev/animations-guide/
 https://web.dev/stick-to-compositor-only-properties-and-manage-layer-count/
+https://greensock.com/get-started/
+
 
 
 
@@ -81,6 +83,7 @@ https://app.haikei.app/ (generate background svgs)
 https://pixelied.com (create icons)
 https://neumorphism.io/
 https://app.spline.design/files   (3D iframes, [reference](https://github.com/Wubpooz/Test_3D_css))
+https://www.vectorlogo.zone/logos/  (logos)
 
 
 &nbsp;
