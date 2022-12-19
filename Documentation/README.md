@@ -192,6 +192,9 @@ https://www.rose-island.co/
 - screen reader !!!!!
 - coherent naming scheme ✅
 - prefered language cookie handling
+- large screen readability
+- screen readers
+- hero title :  __I make dreams come true / vos rêves, notre réalité__
 
 &nbsp;
 #### Bonus : 
