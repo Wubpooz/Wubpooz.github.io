@@ -300,19 +300,37 @@
   
   /*--------------------------------------- Textes --------------------------------------- */
 
-  #base_head{
-    background-color: rgb(28, 25, 56);
+
+  .hero{
+    display: flex;
+    width: 100vw;
+    height : 100vh;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .hero_text{
+    opacity : 1;
     border-radius: 30px;
-    padding: 0.5em;
     width: fit-content;
     text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    text-transform: uppercase;
     color: var(--rest-text-color);
     z-index: 2;
   }
-  #wording{
+  .wording{
     color: hsl(277, 64%, 61%);
   }
-  
+
+  .hero_img{
+    width : 35em;
+    opacity : .5;
+    transform: translate(-35%);
+  }
+
 
   
   .resume{

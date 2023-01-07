@@ -20,9 +20,9 @@ var dictionary = {
       'fr' : 'À propos',
       'en' : 'About',
     },
-    'nice_header' :{
-      'fr' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',
-      'en' : '<h1 id="base_head">Lorem <span id="wording"> ipsum </span> dolor sit</h1>',
+    'hero_text' :{
+      'fr' : 'Vos <span class="wording">rêves</span>, notre réalité',
+      'en' : 'I make your <span class="wording">dream</span> come true',
     },
     'intro_title' :{
       'fr' : '<h1>Introduction</h1>',
