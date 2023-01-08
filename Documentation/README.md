@@ -48,6 +48,7 @@ https://portfolio.tomondre.com/contact
 ![design example](/Documentation/blurred_gradient.jpeg "Design Example")
 ![design example](/Documentation/classy.jpeg "Design Example")
 ![design example](/Documentation/simple_dark.jpeg "Design Example")
+![card example](/Documentation/modern_cards.jpg "CardExample")
 
 
 &nbsp;
