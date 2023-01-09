@@ -48,6 +48,7 @@ https://portfolio.tomondre.com/contact
 ![design example](/Documentation/blurred_gradient.jpeg "Design Example")
 ![design example](/Documentation/classy.jpeg "Design Example")
 ![design example](/Documentation/simple_dark.jpeg "Design Example")
+![card example](/Documentation/modern_cards.jpg "CardExample")
 
 
 &nbsp;
@@ -168,6 +169,13 @@ https://crustac.fr/en/home/ (scroll-line)
 https://www.niarratravel.com/
 https://www.goodmeat.co/
 
+
+&nbsp;
+#### Loading screen
+
+https://www.freecodecamp.org/news/how-to-build-a-delightful-loading-screen-in-5-minutes-847991da509f
+
+&nbsp;
 #### Three.JS
 https://www.rose-island.co/
 
