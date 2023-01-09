@@ -302,9 +302,11 @@
 
 
   .hero{
-    display: flex;
+    margin-top: 4em;
+    display : flex;
+    flex : 1 .5 auto;
     width: 100vw;
-    height : 100vh;
+    height : 100%;
     justify-content: center;
     align-items: center;
 
@@ -326,11 +328,20 @@
   }
 
   .hero_img{
-    width : 35em;
-    opacity : .5;
-    transform: translate(-35%);
+    height : 500px;
+    opacity : .25;
+    transform: translateX(-90px) translateY(-2%);
   }
 
+
+  .webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    cursor: crosshair;
+    /*mix-blend-mode : overlay;*/
+  }
 
   
   .resume{
@@ -426,7 +437,10 @@
   /*--------------------------------------- Back to Top button ---------------------------------------*/
   
   .back_top{
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
     bottom: 0;
     right: 0;
     -webkit-tap-highlight-color: transparent;
