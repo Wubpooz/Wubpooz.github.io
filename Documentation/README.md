@@ -92,7 +92,6 @@ https://uxdesign.cc/2023-visual-design-trends-guide-82e84f09cbdf
 &nbsp;
 ### Références :
 
-
 &nbsp;
 #### Générales : 
 
