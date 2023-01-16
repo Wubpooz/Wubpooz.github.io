@@ -60,8 +60,10 @@ https://kirifuda.co.jp/   (pardoon ?! 🤯)
 https://www.goodmeat.co/  (nice 👌)   
 https://camillemormal.com/about   (waaaaa ✨)   
 https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/   
-https://rougeonblue.ca/   (simple mais classe)
-
+https://rougeonblue.ca/   (simple mais classe)   
+https://dribbble.com/shots/17274425-Editorial-Landing-Page-Cole-Haan   
+https://dribbble.com/Giulio_Cuscito (awesome !!!)  
+https://dribbble.com/shots/18543304-A-new-way-in-cross-border-payments  
 
 
 https://youtu.be/RdcuOF4GSXk   
@@ -152,6 +154,7 @@ https://codepen.io/aaroniker/pen/XWYpyNM  (glow button)
 https://codepen.io/TurkAysenur/pen/ZEpxeYm  (glassmorphism ui)  
 https://codepen.io/georgedoescode/pen/XWNmvro  (glassmorphism block + gradient)  
 https://www.apple.com/macbook-pro-13/  
+https://dribbble.com/VUESAX   
 
 
 &nbsp;
@@ -177,6 +180,7 @@ https://www.freecodecamp.org/news/how-to-build-a-delightful-loading-screen-in-5-
 &nbsp;
 #### Three.JS
 https://www.rose-island.co/  
+https://dribbble.com/shots/14217188-Letter   
 
 &nbsp;
 ## A faire :
