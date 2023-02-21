@@ -328,8 +328,8 @@
     margin-top: 4em;
     display : flex;
     flex : 1 .5 auto;
-    width: 100vw;
-    height : 100%;
+    width: 100%;
+    height : 100vh;
     justify-content: center;
     align-items: center;
 
@@ -344,7 +344,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--rest-text-color);
-    z-index: 2;
+    z-index: 4;
   }
   .wording{
     color: hsl(277, 64%, 61%);
@@ -354,21 +354,18 @@
     height : 500px;
     opacity : .25;
     transform: translateX(-90px) translateY(-2%);
+    z-index: 1;
   }
 
   .webgl {
     position: absolute;
-    top: 0;
-    left: 0;
     outline: none;
     cursor: crosshair;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    position: relative;
-    z-index: -1;
-    text-align: center;
-    mix-blend-mode : overlay;
+    width: 100%;
+    aspect-ratio: auto 1278 / 1311;
+    opacity: .6;
+    /* mix-blend-mode: overlay; */
+    z-index: 2;
   }
 
   
