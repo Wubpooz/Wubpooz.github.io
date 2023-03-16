@@ -64,6 +64,7 @@ https://rougeonblue.ca/   (simple mais classe)
 https://dribbble.com/shots/17274425-Editorial-Landing-Page-Cole-Haan   
 https://dribbble.com/Giulio_Cuscito (awesome !!!)  
 https://dribbble.com/shots/18543304-A-new-way-in-cross-border-payments  
+https://redstapler.co/web-design-trends-2023/  
 
 
 https://youtu.be/RdcuOF4GSXk   
@@ -140,6 +141,7 @@ https://codepen.io/nathantaylor/pen/JEXgpj/ (fullscreen)
 https://codepen.io/alexnoz/pen/brazWd (higly parralaxed navigation)   
 https://www.codinglabweb.com/2022/05/responsive-card-slider-javascript.html   
 https://codepen.io/Hyperplexed/pen/MWXBRBp   
+https://codepen.io/RudeCodes/pen/poZzrbM  (Camille Mormal)
 
 &nbsp;
 #### Glow references
