@@ -34,7 +34,7 @@ https://greensock.com/get-started/
 
 
 &nbsp;
-### Sites ex :
+### Examples :
 https://junior-pps.fr/   
 https://www.lri.fr/~falcou/   
 https://www.lri.fr/~cartier/  
@@ -54,6 +54,7 @@ https://portfolio.tomondre.com/contact
 &nbsp;
 #### Inspirations
 
+https://blog.gaetanpautler.com/weekly-links-and-websites/480  (list of cool websites)  
 https://codepen.io/TurkAysenur/pen/gORaboY  (product showcase example)   
 https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)   
 https://kirifuda.co.jp/   (pardoon ?! 🤯)
