@@ -28,8 +28,9 @@ https://web.dev/optimize-cls/
 https://webperformance.recipes/resources/measure-optimize-cls/   
 https://web.dev/animations-guide/   
 https://web.dev/stick-to-compositor-only-properties-and-manage-layer-count/   
-https://greensock.com/get-started/   
-
+https://greensock.com/get-started/ 
+https://wtfhtmlcss.com/  
+https://codeguide.co/  
 
 
 
@@ -42,6 +43,7 @@ https://www.lri.fr/~kn/
 https://web.archive.org/web/20220120101200/https://avecle6.fr/  
 https://stackoverflow.com/questions/69268167/this-is-the-css-i-have-written-trying-to-center-the-content-as-shown-in-the-pho  
 https://portfolio.tomondre.com/contact   
+https://gastonduault.github.io/Portfolio/#top  
 
 ![design example](/Documentation/design-1.jpg "Design Example")
 ![design example](/Documentation/playfull.jpeg "Design Example")
@@ -91,6 +93,7 @@ https://neumorphism.io/
 https://app.spline.design/files  (3D iframes, [reference](https://github.com/Wubpooz/Test_3D_css))   
 https://www.vectorlogo.zone/logos/  (logos)   
 https://uxdesign.cc/2023-visual-design-trends-guide-82e84f09cbdf   
+https://poly.cam/material-generator  
 
 
 &nbsp;
