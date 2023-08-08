@@ -56,6 +56,8 @@ https://gastonduault.github.io/Portfolio/#top
 &nbsp;
 #### Inspirations
 
+https://youtu.be/oFz1RfCzKYs (best sites 2023)  
+https://youtu.be/_X3OvCby1Bs (// part 2)  
 https://blog.gaetanpautler.com/weekly-links-and-websites/480  (list of cool websites)  
 https://codepen.io/TurkAysenur/pen/gORaboY  (product showcase example)   
 https://codepen.io/r_e_d_ant/pen/oNWZgpy  (shopping site example)   
